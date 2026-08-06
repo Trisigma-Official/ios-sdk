@@ -1,0 +1,75 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-upcoming-feature StrictConcurrency -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TrisigmaSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc(TrisigmaLogLevel) public enum LogLevel : Swift.Int, Swift.Sendable {
+  case none
+  case error
+  case warning
+  case debug
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension TrisigmaSDK.LogLevel : Swift.Comparable {
+  public static func < (lhs: TrisigmaSDK.LogLevel, rhs: TrisigmaSDK.LogLevel) -> Swift.Bool
+}
+public enum Trisigma {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public static func initialize(key: Swift.String, tag: Swift.String, participant: TrisigmaSDK.TrisigmaParticipant, options: TrisigmaSDK.TrisigmaOptions) async throws -> any TrisigmaSDK.TrisigmaClientObjCProtocol & TrisigmaSDK.TrisigmaClientSwiftProtocol
+  #endif
+  public static func initialize(key: Swift.String, tag: Swift.String, participant: TrisigmaSDK.TrisigmaParticipant, options: TrisigmaSDK.TrisigmaOptions, completion: @escaping @_Concurrency.MainActor @Sendable (Swift.Result<any TrisigmaSDK.TrisigmaClientObjCProtocol & TrisigmaSDK.TrisigmaClientSwiftProtocol, any Swift.Error>) -> Swift.Void)
+}
+@_inheritsConvenienceInitializers @objc final public class TrisigmaObjC : ObjectiveC.NSObject {
+  @objc public static func initialize(key: Swift.String, tag: Swift.String, participant: TrisigmaSDK.TrisigmaParticipant, options: TrisigmaSDK.TrisigmaOptions, completion: @escaping @_Concurrency.MainActor @Sendable ((any TrisigmaSDK.TrisigmaClientObjCProtocol)?, (any Swift.Error)?) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias TrisigmaClientProtocol = TrisigmaSDK.TrisigmaClientObjCProtocol & TrisigmaSDK.TrisigmaClientSwiftProtocol
+public protocol TrisigmaClientSwiftProtocol {
+  func getVisitorId() -> Swift.String
+  func checkFeature(label: Swift.String, defaultGroup: Swift.String) -> Swift.String
+  func clearCache()
+  func setOverride(label: Swift.String, group: Swift.String)
+  func removeOverride(label: Swift.String)
+  func removeAllOverrides()
+  func getAllOverrides() -> [Swift.String : Swift.String]
+  func logExposure(label: Swift.String)
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func flush() async -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func shutdown() async -> Swift.Bool
+  #endif
+}
+@objc public protocol TrisigmaClientObjCProtocol : Swift.Sendable {
+  @objc func getVisitorId() -> Swift.String
+  @objc func checkFeature(label: Swift.String, defaultGroup: Swift.String) -> Swift.String
+  @objc func clearCache()
+  @objc func setOverride(label: Swift.String, group: Swift.String)
+  @objc func removeOverride(label: Swift.String)
+  @objc func removeAllOverrides()
+  @objc func getAllOverrides() -> [Swift.String : Swift.String]
+  @objc func logExposure(label: Swift.String)
+  @objc func flush(completion: @escaping @_Concurrency.MainActor @Sendable (Swift.Bool) -> Swift.Void)
+  @objc func shutdown(completion: @escaping @_Concurrency.MainActor @Sendable (Swift.Bool) -> Swift.Void)
+}
+@objc final public class TrisigmaOptions : ObjectiveC.NSObject, Swift.Sendable {
+  @objc public init(host: Swift.String, platformVersion: Swift.String, sourceName: Swift.String? = nil, cacheEnabled: Swift.Bool = true, cacheTTL: Swift.Int = 86400, requestTimeout: Swift.Int = 1, featuresRefreshInterval: Swift.Int = 180, exposureQueueMaxSize: Swift.Int = 50, exposureFlushInterval: Swift.Int = 30, shutdownTimeout: Swift.Int = 5, logLevel: TrisigmaSDK.LogLevel = .error, logHandler: ((TrisigmaSDK.LogLevel, Swift.String) -> Swift.Void)? = nil)
+  @objc deinit
+}
+@objc final public class TrisigmaParticipant : ObjectiveC.NSObject, Swift.Sendable {
+  @objc @_disfavoredOverload convenience public init(userId: Swift.Int, visitorId: Swift.String? = nil, attributes: [Swift.String : Swift.String] = [:])
+  @objc @_disfavoredOverload convenience public init(visitorId: Swift.String? = nil, attributes: [Swift.String : Swift.String] = [:])
+  public init(userId: Swift.Int? = nil, visitorId: Swift.String? = nil, attributes: [Swift.String : Swift.String] = [:])
+  @objc deinit
+}
+extension TrisigmaSDK.LogLevel : Swift.Hashable {}
+extension TrisigmaSDK.LogLevel : Swift.RawRepresentable {}
