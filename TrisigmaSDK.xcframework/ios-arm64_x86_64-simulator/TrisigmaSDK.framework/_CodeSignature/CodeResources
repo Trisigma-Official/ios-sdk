@@ -6,55 +6,55 @@
 	<dict>
 		<key>Headers/TrisigmaSDK-Swift.h</key>
 		<data>
-		T2T5Z+hlFLA6MetSthHen6sjcpI=
+		lTj9NEd4n5wdjMvxyQ3Wci72IBY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		U/d9ECYqheZ2LSGv9XpPj28zz+I=
+		zaqTjLY9AccVMxcG8Ksb6agrK7U=
 		</data>
 		<key>Modules/TrisigmaSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3+UHl09mRwB4/gUhkoEzALhNOAo=
+		lCLOD5u5esqY6kMc0LVtpv45xGg=
 		</data>
 		<key>Modules/TrisigmaSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		16VebPbqekE370KRgwpTpz4qowE=
+		B1ZTuywyVQQOgAaJqKNzKhN+1G4=
 		</data>
 		<key>Modules/TrisigmaSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Kgy8xQRWybaWN2llkL4LheYX1Us=
+		Ofr2YvmDroy7cwoeOL7NR4kn28Q=
 		</data>
 		<key>Modules/TrisigmaSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		16VebPbqekE370KRgwpTpz4qowE=
+		B1ZTuywyVQQOgAaJqKNzKhN+1G4=
 		</data>
 		<key>Modules/TrisigmaSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6LOQsI4wfCojQ4VDl+aobG1H1Uk=
+		rsyOVw2CYB9yEGFplakIs4vb9Zg=
 		</data>
 		<key>Modules/TrisigmaSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3+UHl09mRwB4/gUhkoEzALhNOAo=
+		lCLOD5u5esqY6kMc0LVtpv45xGg=
 		</data>
 		<key>Modules/TrisigmaSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yBMAF6WEH7HvpNxdzGX9KEQrTMA=
+		ZBfXzstMDP8zBsDlpCPFFy5iWuQ=
 		</data>
 		<key>Modules/TrisigmaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OD9dC+8+cGPTcWCD3x1mN0X0DF4=
+		jhjXyMYPlM+mjZ5h1tiDJ1zy2DE=
 		</data>
 		<key>Modules/TrisigmaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yBMAF6WEH7HvpNxdzGX9KEQrTMA=
+		ZBfXzstMDP8zBsDlpCPFFy5iWuQ=
 		</data>
 		<key>Modules/TrisigmaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/BmMErrs1UiNQDkiS4keUucO1eM=
+		OdxoT1nLOJ06JTC1fy3SeBmsMPY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		rQpPvEIoLD2HpqkzxzLegg7KOAE=
+		vjHXXiwazivaeEQRZdTpawCt0pc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -63,84 +63,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zUhUm962o2lgVXwUR8KUkLS1NmxZLMy6VCAwbH8YTMk=
+			DGwaI/eSvigh9tNLQtcm7F57WZCtfcsINv3hNPG00xc=
 			</data>
 		</dict>
 		<key>Modules/TrisigmaSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3uEdQUQ2G4B6/eE61OWscjtgQRMauLMeykQH+SsTo/s=
+			SByI47/s77CYLRHU2CetRuTNEOd/Zh6q2RFfRr3CRnM=
 			</data>
 		</dict>
 		<key>Modules/TrisigmaSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FvcInjCnw/+wvEOVq0VssyoGQfuWmaFeRVs+Zzanun8=
+			mWHzIOBRsNdBRovJtKwfQhKHdjbggHhtgFd7hIHG4hU=
 			</data>
 		</dict>
 		<key>Modules/TrisigmaSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vb2WvGuLomRbriOGwXXXNaqtKkvq1pj/wk9u68ZzOC0=
+			4wQTf0sxfgfNvAowEesioKAhPtJFwvDZGhMgHyCUfaQ=
 			</data>
 		</dict>
 		<key>Modules/TrisigmaSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FvcInjCnw/+wvEOVq0VssyoGQfuWmaFeRVs+Zzanun8=
+			mWHzIOBRsNdBRovJtKwfQhKHdjbggHhtgFd7hIHG4hU=
 			</data>
 		</dict>
 		<key>Modules/TrisigmaSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eAA28R6mbj5iAJC3fVAzwATcFx8+c4U5jMb/aJ9Q/gI=
+			p/W+TlOQWNOgTDW406KTrjJVyHK4GY1GoEzxZpJF/2s=
 			</data>
 		</dict>
 		<key>Modules/TrisigmaSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3uEdQUQ2G4B6/eE61OWscjtgQRMauLMeykQH+SsTo/s=
+			SByI47/s77CYLRHU2CetRuTNEOd/Zh6q2RFfRr3CRnM=
 			</data>
 		</dict>
 		<key>Modules/TrisigmaSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jFg4mRulOAmUxGHp4htwKAo/97TgEuduU+Dp8UTVfHI=
+			kMMasora7iXihrTbNPrGP7vu05IDBpXwCHatgIGXv7E=
 			</data>
 		</dict>
 		<key>Modules/TrisigmaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IVeWjHRdUAJ4CQ3yAU0Ev3vccWUFz9d6u4xyhKSb2E0=
+			s7ZV7Ut/jP4QC3K4AwbSh7KOBZTjzlxtKka1evEPQ2w=
 			</data>
 		</dict>
 		<key>Modules/TrisigmaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jFg4mRulOAmUxGHp4htwKAo/97TgEuduU+Dp8UTVfHI=
+			kMMasora7iXihrTbNPrGP7vu05IDBpXwCHatgIGXv7E=
 			</data>
 		</dict>
 		<key>Modules/TrisigmaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ELw9fthivFcJ2KAww4/9xdR+lM+LOUKIi0qSeov2Wwk=
+			C1TbYkNYcBveV4fNcc/JiZjJ/+gBreW0Kg2MeoEfk3w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1oeKPXIbv7JeZAD9FjRa7eCQ3WOOMXxiAwEdQQ+jdP4=
+			QSJDfEe7vER98BGlhjoLzNeYVsMhXCfQrxdgfEksaB8=
 			</data>
 		</dict>
 	</dict>
