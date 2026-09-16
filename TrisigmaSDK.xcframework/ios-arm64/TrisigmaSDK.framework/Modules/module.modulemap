@@ -1,4 +1,3 @@
 framework module TrisigmaSDK {
   header "TrisigmaSDK-Swift.h"
-  requires objc
 }
